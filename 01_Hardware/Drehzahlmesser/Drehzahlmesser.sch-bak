@@ -1,5 +1,5 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -1283,8 +1283,8 @@ R_W
 Wire Wire Line
 	2150 6300 2050 6300
 Wire Wire Line
-	2150 6500 2050 6500
-Text GLabel 2050 6500 0    50   Input ~ 0
+	3150 7000 3250 7000
+Text GLabel 3250 7000 2    50   Input ~ 0
 SW
 $Comp
 L Connector:Conn_01x04_Male J3
@@ -1447,6 +1447,7 @@ Wire Wire Line
 	3250 6600 3150 6600
 Wire Wire Line
 	3250 6700 3150 6700
+NoConn ~ 2150 6500
 NoConn ~ 2150 6000
 NoConn ~ 2150 6100
 $Comp
